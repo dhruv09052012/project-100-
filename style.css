@@ -1,0 +1,42 @@
+body
+{
+    background-color: rgb(235, 197, 223);
+}
+
+h1
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:75px;
+    color:darkgreen;
+}
+
+#start_btn
+{
+    background-color:darkorange;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#footer
+{
+    font-size: 25px;
+    background-color: rgb(255, 155, 32);
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+    text-align: center;
+}
+
+img
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img:hover
+{
+    border-radius: 140px;
+    box-shadow: 0 30px 20px rgba(150, 44, 250, 0.8);
+}

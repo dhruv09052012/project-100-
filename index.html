@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <title>Collage Web App</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+       <link href="style.css" rel="stylesheet">
+   
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+   
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <a href="" download="my_selfie.png"></a>
+    <div class="container">
+        <center>
+            <h1>Collage Web App</h1>
+            <hr>
+            <h4>As soon as the popup appears, please click allow. After you've spoken a command</h4>
+            <h3>Say "Selfie" for taking selfies and to make a collage</h3>
+            <button id="start_btn" onclick="begin();">START</button>
+            <h4>Press the start button</h4>
+            <label>Your webcam : </label>
+            
+            <div id="camera"> </div>
+
+            <label>All selfies will be displayed here.</label>
+
+            <div id="resultShow">
+                <div id="result1">
+                    <img src="selfie_1.jpg" style="width: 30%;">
+                </div>
+
+                <div id="result2">
+                    <img src="selfie_3.jpg" style="width: 30%;">
+                </div>
+                
+                <div id="result3">
+                    <img src="selfie_2.jpg" style="width: 30%;">
+                </div>
+            </div>
+            <div id="footer">Developed by Dhruv</div>
+        </center>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
